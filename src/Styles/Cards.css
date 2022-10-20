@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.Card_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: left;
+  width: 70%;
+  margin-left: 20px;
+  height: 100px;
+  height: auto;
+}
+.content_box {
+  padding: 0px 0px 0px 5px;
+  height: max-content;
+  width: 32.5%;
+  border-radius: 15px;
+  background-color: white;
+}
+.image_box {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-items: center;
+  float: left;
+}
+.image_box img {
+  width: 45px;
+  margin-right: 10px;
+}
+
+.image_box p:nth-child(1) {
+  color: gray;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.3;
+}
+.image_box p:nth-child(2) {
+  color: black;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 1.3;
+}
+.content_box span {
+  display: inline-block;
+  margin-top: 38px;
+  font-size: 12px;
+  line-height: 1.3;
+  
+}
+
+.Graph_card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  margin-left: 20px;
+  margin-top: 7%;
+  height: auto;
+  border-radius: 15px;
+  background-color: white;
+}
+.Graph_data {
+  width: 30%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 0px;
+  margin: auto;
+  height: auto;
+}
+.Graph {
+  width: 70%;
+  height: auto;
+  border-radius: 15px;
+}
+.Graph img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.Tri_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin-left: 20px;
+  margin-top: 2%;
+  height: auto;
+  gap: 10px;
+  border-radius: 15px;
+  background-color: rgb(229, 229, 229);
+}
+.Tri_cards img{
+   border-radius: 15px;
+width: 100%;
+}
+/* .Activity_card{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+
+} */

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.User_Profile {
+  width: 26%;
+  margin: auto;
+  margin-right: 5px;
+  float: right;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.background {
+  width: 100%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.User_Image img {
+    width: 6%;
+    position: absolute;
+    left: 84rem;
+    top: 20rem;
+    border: 5px solid white;
+    border-radius: 50%;
+  
+}
+.details{
+    margin: 35px;
+    border-bottom: 2px solid gray;
+}
+.stat_image img{
+width: 300px;
+}
+.Stats_container{
+    background-color: white;
+}
+.Stats_container img{
+    width: 100%;
+}
