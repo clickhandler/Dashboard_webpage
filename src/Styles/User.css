@@ -4,28 +4,31 @@
   box-sizing: border-box;
 }
 .User_Profile {
-  width: 26%;
+  width: 20%;
   margin: auto;
-  margin-right: 5px;
+  margin-right: 10px;
   float: right;
   height: 100vh;
   background-color: white;
   display: flex;
   flex-direction: column;
   border-radius: 15px;
+  margin-top: -70px;
 }
 
 .background {
   width: 100%;
-  border-radius: 15px;
+  height: 9em;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
   position: relative;
 }
 
 .User_Image img {
-    width: 6%;
+    width: 5%;
     position: absolute;
-    left: 84rem;
-    top: 20rem;
+    right: 8%;
+    top: 10rem;
     border: 5px solid white;
     border-radius: 50%;
   

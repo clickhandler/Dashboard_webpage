@@ -6,9 +6,9 @@ import Sidebar from './Pages/Sidebar';
 function App() {
   return (
     <div className="App">
-      {/* <LandingPage/> */}
+  
       <Dashboard/>
-      {/* <Sidebar/> */}
+    
     </div>
   );
 }

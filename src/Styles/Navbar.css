@@ -6,29 +6,29 @@
 }
 
 .navbar {
+  width: 81%;
   display: flex;
   justify-content: space-between;
-  margin: 20px;
-align-items: center;
+
+  align-items: center;
   font-size: 24px;
   justify-items: center;
+  float: right;
 }
 .menu_icons {
- 
   align-items: center;
   justify-items: center;
   display: flex;
-  width: 22%;
+  width: 28%;
   font-size: 24;
   justify-content: space-evenly;
-
 }
-.menu_icons div{
-  padding: 10px;
+.menu_icons div {
+  padding: 5px;
   cursor: pointer;
 }
 .User_Image {
   display: block;
-  width: 40%;
+  width: 30%;
   border-radius: 50%;
 }

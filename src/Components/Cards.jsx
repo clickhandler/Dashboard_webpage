@@ -1,5 +1,6 @@
 import { Button } from "@chakra-ui/react";
 import React from "react";
+import Sidebar from "../Pages/Sidebar";
 import User from "../Pages/User";
 
 import "../Styles/Cards.css";
@@ -7,6 +8,7 @@ import "../Styles/Cards.css";
 const Cards = () => {
   return (
     <>
+      <Sidebar />
       <div className="Card_box">
         <div className="content_box">
           <div className="image_box">
@@ -88,9 +90,15 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <User/>
+
+      <User />
+
       <div className="Graph_card">
         <div className="Graph_data">
+          <>
+            <h6>This month</h6>
+            <h4>$24,568</h4>
+          </>
           <div
             className="graph_content"
             style={{ borderRight: "1px solid gray" }}
@@ -134,17 +142,15 @@ const Cards = () => {
 
       <div className="Tri_cards">
         <div>
-            <img src={require("../asset/Images/1.jpg")} alt="" />
-
+          <img src={require("../asset/Images/1.jpg")} alt="" />
         </div>
         <div>
-        <img src={require("../asset/Images/2.jpg")} alt="" />
+          <img src={require("../asset/Images/2.jpg")} alt="" />
         </div>
         <div>
-        <img src={require("../asset/Images/3.jpg")} alt="" />
+          <img src={require("../asset/Images/3.jpg")} alt="" />
         </div>
       </div>
-     
     </>
   );
 };
